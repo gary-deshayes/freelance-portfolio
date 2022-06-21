@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "name": "Mysql",
+    "experience": "5 Ans d'expériences",
+    "production": "9",
+    "histoires": [
+      "- Utilisation de MySQL pour mes API Symfony (voir partie Back)"
+    ],
+    "maitrise": ["- CRUD", "- Relations entre tables", "- Relation entre plusieurs BDD via des IDs"],
+    "apprentissage": ["Aucun"],
+    "versions": ["5.7"],
+    "colorPrimary": "#00678C",
+    "colorSecondary": "#000000",
+    "logo": "mysql.svg"
+  },
+  {
+    "id": 2,
+    "name": "MongoDB",
+    "experience": "2 ans d'expériences",
+    "production": "1",
+    "histoires": [
+      "- Hébergement des données de l'outil de ticketing (voir Front et Back)",
+      "- Mise en place d'aggrégations pour des statistiques."
+    ],
+    "maitrise": ["- Aggrégations", "- Schéma sous Mongoose", "- Validation"],
+    "apprentissage": ["Aucun"],
+    "versions": ["4.4"],
+    "colorPrimary": "#6CAC48",
+    "colorSecondary": "#000000",
+    "logo": "mongodb.svg"
+  }
+]

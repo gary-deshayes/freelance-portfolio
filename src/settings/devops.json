@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Kubernetes",
+    "experience": "1 An d'expérience",
+    "production": "7",
+    "histoires": [
+      "- Mise en place des back Symfony et NodeJS sur des pods via différents Namespace"
+    ],
+    "maitrise": ["- Déploiement d'une image docker sur un pod", "- Mise en ligne d'un pod avec un ingress"],
+    "apprentissage": ["Aucun"],
+    "versions": ["1"],
+    "colorPrimary": "#326CE5",
+    "colorSecondary": "#000000",
+    "logo": "kubernetes.svg"
+  },
+  {
+    "id": 2,
+    "name": "Docker",
+    "experience": "1 an d'expérience",
+    "production": "7",
+    "histoires": [
+      "- Déploiement de 7 projets sur un registry privé avec plusieurs tags différent pour la prod, preprod et dev"
+    ],
+    "maitrise": ["- Création d'un dockerfile pour Symfony et Nodejs", "- Push d'une image sur un registry avec un tag"],
+    "apprentissage": ["Aucun"],
+    "versions": ["20"],
+    "colorPrimary": "#1B81A5",
+    "colorSecondary": "#000000",
+    "logo": "docker.svg"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "name": "Vue.js",
+    "experience": "2 Ans d'expériences",
+    "production": "6",
+    "histoires": [
+      "- Création de plusieurs UI au sein d'un même ensemble de module",
+      "- Création d'une interface pour un outil de ticketing en temps réel",
+      "- Affichage des statistiques via Chart.js pour l'outil de ticketing"
+    ],
+    "maitrise": [
+      "- Bus d'événement",
+      "- Composants réutilisables",
+      "- VueI18n",
+      "- VueX"
+    ],
+    "apprentissage": ["- Composition API", "- Testing", "- Typescript"],
+    "ui": ["- Boostrap Vue", "- Vuetify"],
+    "versions": ["2.6.*", "3"],
+    "colorPrimary": "#42d392",
+    "colorSecondary": "#647eff",
+    "logo": "vuejs.svg"
+  },
+  {
+    "id": 2,
+    "name": "React",
+    "experience": "En apprentissage autodidacte",
+    "histoires": ["- Pour le moment simple réalisation en local (de cette page web notamment)"],
+    "production": "0",
+    "maitrise": ["- Composants réutilisables"],
+    "apprentissage": ["- Hook"],
+    "ui": ["Aucune"],
+    "versions": ["18.2.*"],
+    "colorPrimary": "#61dafb",
+    "colorSecondary": "#20232a",
+    "logo": "react.svg"
+  },
+  {
+    "id": 3,
+    "name": "Angular",
+    "experience": "1 an d'expérience",
+    "histoires": ["- Réalisation d'un front utilisant une API Youtube dans le cadre d'études"],
+    "production": "0",
+    "maitrise": ["- Composants réutilisables"],
+    "apprentissage": ["Aucun"],
+    "ui": ["Aucune"],
+    "versions": ["7"],
+    "colorPrimary": "#B52E31",
+    "colorSecondary": "#20232a",
+    "logo": "angular.svg"
+  }
+]

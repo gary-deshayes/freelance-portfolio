@@ -1,0 +1,21 @@
+#body {
+  color: #e0e5ec;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.front {
+  margin: 0 10px;
+  border-radius: 12px;
+  background: #e0e5ec;
+  color: #a3b1c6;
+  box-shadow: inset -5px 5px 7px #a3b1c6, inset 5px -5px 7px #ffffff;
+}
+.back {
+  margin: 0 10px;
+  
+  color: #a3b1c6;
+  border-radius: 12px;
+  background: #e0e5ec;
+  box-shadow: inset 5px 5px 3px #a3b1c6, inset -5px -5px 3px #ffffff;
+}

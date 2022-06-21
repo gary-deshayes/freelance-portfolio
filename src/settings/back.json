@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Symfony",
+    "experience": "4 Ans d'expériences",
+    "production": "9",
+    "histoires": [
+      "- Réalisation d'un site vitrine pour un site de voyages.",
+      "- Réalisation d'un extranet pour des étudiants d'un lycée.",
+      "- Réalisation d'un extranet pour une association.",
+      "- Mise en place de 6 API interconnectée entre elles via microservice (Kubernetes) pour alimenter un CRM."
+    ],
+    "maitrise": ["- API from scratch", "- Doctrine", "- Profiler", "- Migrations"],
+    "apprentissage": ["Aucun"],
+    "versions": ["- 4.4", "- 5"],
+    "colorPrimary": "#000000",
+    "colorSecondary": "#000000",
+    "logo": "symfony.svg"
+  },
+  {
+    "id": 2,
+    "name": "Node.js",
+    "experience": "2 ans d'expériences",
+    "production": "1",
+    "histoires": [
+      "- Création d'un chat en temps réel pour la réception de ticket hotline des clients",
+      "- Affichage de statistiques via une API qui faisait des aggrégations sous MongoDB"
+    ],
+    "maitrise": ["- Socket", "- API (Express.js)", "- Mongoose", "- Gestion d'erreurs"],
+    "apprentissage": ["- NestJS"],
+    "versions": ["16"],
+    "colorPrimary": "#509941",
+    "colorSecondary": "#000000",
+    "logo": "node.svg"
+  },
+  {
+    "id": 3,
+    "name": "Laravel",
+    "experience": "0 année d'expérience",
+    "production": "0",
+    "histoires": [
+      "- Développement d'un projet bac à sable pour essayer le framework (Type Trello)"
+    ],
+    "maitrise": ["- API", "- CRUD Eloquent"],
+    "apprentissage": ["Aucun"],
+    "versions": ["8"],
+    "colorPrimary": "#EF533F",
+    "colorSecondary": "#000000",
+    "logo": "laravel.svg"
+  }
+]
