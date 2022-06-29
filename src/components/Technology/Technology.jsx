@@ -9,8 +9,8 @@ export default class Technology extends React.Component {
     let uiAndVersions;
     if (this.props.data.ui) {
       uiAndVersions = (
-        <div className="technology-group">
-          <div className="technology-ui">
+        <div className="technology-group row">
+          <div className="technology-ui col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
             <h3>Librairies UI</h3>
             <ul>
               {this.props.data.ui.map((ui) => (
@@ -18,7 +18,7 @@ export default class Technology extends React.Component {
               ))}
             </ul>
           </div>
-          <div className="technology-versions">
+          <div className="technology-versions col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
             <h3>Versions</h3>
             <ul>
               {this.props.data.versions.map((version) => (
@@ -80,8 +80,8 @@ export default class Technology extends React.Component {
 
           {uiAndVersions}
 
-          <div className="technology-group">
-            <div className="technology-maitrise">
+          <div className="technology-group row">
+            <div className="technology-maitrise col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
               <h3>Maitrise</h3>
               <ul>
                 {this.props.data.maitrise.map((maitrise) => (
@@ -89,7 +89,7 @@ export default class Technology extends React.Component {
                 ))}
               </ul>
             </div>
-            <div className="technology-apprentissage">
+            <div className="technology-apprentissage col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
               <h3>Apprentissage</h3>
               <ul>
                 {this.props.data.apprentissage.map((apprentissage) => (
